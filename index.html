@@ -14,10 +14,12 @@
 <body>
     <!-- Encryption -->
     <div class="container">
+        <!-- title -->
         <header>
             <h1 class="text-center">Caesars Cipher</h1>
         </header>
         <hr>
+
         <h6>This is the Caesars Cipher converter. </h6>
         <p>Have you ever felt embarassing when showing your gratitude or apology to your friends, families, and
             partner? Almost peopole experienced such a situation and some of them could't say words for the feeling.</p>
@@ -29,23 +31,26 @@
             of letters. This converter can encrypt your message by Caesars Cipher. Therefore, you
             can give it to them with URL of this site without notice them the meanings of your messages. They don't
             know what you wanted to say untill they decrypt messages by this converter.</p><br><br><br>
-
         <p class="text-center">Enter messages you want to encrypt or to decrypt below.</p>
+        <!-- input-->
         <form>
             <div class="row">
                 <div class="col-12 text-center">
                     <textarea htmlEscape="true" type="text" id="enc" placeholder=" input text here"></textarea></div>
                 <div class="col-12 text-center" style="margin-top:5px">
                     <button type="button" class="btn btn-default btn-primary" onclick="Encryption()">Encryption</button>
+                    <button type="button" class="btn btn-default btn-warning" onclick="Reset()">Reset</button>
                 </div>
             </div>
         </form>
-        <p id="encout">result:</p><br>
+        <p id="encout">result:</p>
+        <br>
         <em>
             <p class="text-danger text-center">Caesars Cipher is very easy to decode. You don't use this converter for
                 enforcing
                 security.</p>
         </em>
+        <!-- my data -->
         <footer>
             creator's infomation:
             <span class="creatorinfo badge badge-light" id="Twitter"><a href="https://twitter.com/Mike_2018_qkgh">Twitter</a></span>

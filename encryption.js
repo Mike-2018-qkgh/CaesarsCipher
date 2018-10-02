@@ -1,9 +1,13 @@
-//encryption
+//rewrite the result
 function Encryption() {
 	var text = document.getElementById("enc").value;
 	document.getElementById("encout").innerHTML =
 		"result: " + CaesarsCipher(text);
 }
+function Reset() {
+	document.getElementById("encout").innerHTML = "result: ";
+}
+//Encription
 function CaesarsCipher(str) {
 	var arr = [
 		"A",
